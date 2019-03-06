@@ -1,0 +1,59 @@
+
+     *{margin:0;padding:0}
+    .head{
+        height:50px;
+        color: white;
+        background-color: pink;
+        line-height: 50px;
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .title{
+        line-height: 50px;
+    }
+    .title:hover{
+        color:slategray;
+        cursor: pointer;
+    }
+    .container{
+        width: 500px;
+        margin-left: auto;
+        margin-right: auto;
+
+    }
+    .img{
+        width:500px;
+    }
+    .content{
+        margin-top:10px;
+    }
+    .content:hover{
+        color: pink;
+        cursor: pointer;
+    }
+    .about{
+        line-height: 50px;
+    }
+    .about:hover{
+        color:rgb(126, 121, 121);
+    }
+    li{
+        margin-top: 10px;
+    }
+    li:hover{
+        color:deeppink;
+        cursor: pointer;
+    }
+    dd,dt{
+        margin-top:10px;
+    }
+    dd:hover{
+        color:deeppink;
+        cursor: pointer;
+    }
+    dt:hover{
+        color:deeppink;
+        cursor: pointer;
+    }
+    
