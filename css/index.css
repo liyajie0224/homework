@@ -55,11 +55,14 @@
         color:deeppink;
         cursor: pointer;
     }
+    .boby{
+        position: relative;
+    }
     .enter{
         height: auto;
         width: auto;
-        position: fixed;
-        left: 100px;
+        position: absolute;
+        left: 90px;
         top: 100px;
         border: 2px solid #433d3c;
         border-radius: 30px;
