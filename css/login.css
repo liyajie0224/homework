@@ -36,25 +36,35 @@ body {
     right: 0;
     background: #FFFFFF;
     text-align: center;
-    color: #666666;
+    color: #666666;   
 }
 /* nav */
-.nav-tabs a{
-    display: inline-block;
+.nav-tabs a{   
+    display: inline-block;   
     text-decoration: none;  
     height: 24px;
     line-height: 24px;
     color: #666666;
-    /* font-display: none; */   
+    margin:0 40px; 
+    cursor: pointer;
 }
 .nav-tabs{
     margin: 27px 0 24px 0;
     text-align: center;
     font-size: 24px;
-    position: relative;
+    position: relative;    
+}
+.nav-tabs::after{
+    content:"";
+    display: block;
+    clear: both;
 }
 .line{
+    float: left;
     display: inline-block;
+    position: absolute;
+    top: -7px;
+    right: 160px;
     height: 24px;
     border: 1px solid #E0E0E0;
     margin: 8px 44px 0 39px;
@@ -137,6 +147,7 @@ label{
     display: block;
     margin-bottom: 14px;
     margin-top: 10px; 
+    cursor: pointer;
 }
 .user,.pwd{
     width: 316px;
@@ -163,26 +174,42 @@ label{
     line-height: normal;
     margin: 0;
     text-decoration: none;
+    cursor: pointer;
 }
 .smalllink{
     display: block;
     float: left;
 }
 .revese{
-    width: 136px;
+    width: 144px;
     height: 14px;
     float: left;
     right: 31px;
     position: absolute;
 }
+.revese::after{
+    content:"";
+    display: block;
+    clear: both;
+}
 .revese a{
+    display: inline-block;
     text-decoration: none;
     color: #999999;
+    margin-right: 7px;
+    cursor: pointer;
+  
 }
 .other-line{
+    float: left;
+    position: absolute;
+    top:2px;
+    right: 77px;
     display: inline-block;
     height: 14px;
-    border: 0.5px solid #E0E0E0;
+    border: 1px solid rgb(202, 196, 196);
+    margin: 0 4px;
+    
 }
 /* otherway-text */
 .box{
@@ -238,6 +265,7 @@ label{
     border-radius: 50%;
     box-sizing: border-box;
     line-height: 26px;
+    
 }
 .iconfont{
    display: inline-block;
@@ -305,6 +333,7 @@ label{
 }
 .select-list a:hover {
     color: #333;
+    cursor: pointer;
 }
 .easyfont{
     color: #333;
