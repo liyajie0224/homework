@@ -3,6 +3,7 @@
 body {
     font-size: 14px;
     font-family: arial,"Hiragino Sans GB","Microsoft YaHei","微軟正黑體","儷黑 Pro",sans-serif;
+    color: #666666;
 }
 /* 小米图标 */
 .h-panel,.login-banner {
@@ -34,6 +35,8 @@ body {
     top:30px;
     right: 0;
     background: #FFFFFF;
+    text-align: center;
+    color: #666666;
 }
 /* nav */
 .nav-tabs a{
@@ -41,6 +44,8 @@ body {
     text-decoration: none;  
     height: 24px;
     line-height: 24px;
+    color: #666666;
+    /* font-display: none; */   
 }
 .nav-tabs{
     margin: 27px 0 24px 0;
@@ -54,6 +59,43 @@ body {
     border: 1px solid #E0E0E0;
     margin: 8px 44px 0 39px;
 }
+/* .nav-tabs a.active 
+在小米的代码里扒的方法，这样可以让两个a标签在已设置过默认颜色后，
+被选中的a标签仍能变颜色*/
+.nav-tabs a.active{
+    color: #f56600;
+}
+/* form-content */
+/* ertab-link */
+.ertab-link{
+    width: 410px;
+    /* height: 225px; */
+    display: none;
+    position: relative;
+    text-align: center;  
+}
+.ertab-link img{
+    position: absolute;
+    left: 0;right: 0;top: 0;bottom: 0;
+    margin: auto;
+    margin-top: 79px;
+}
+/* custom-top-txt */
+.custom-top {
+    text-align: center;
+    padding-top: 14px;
+    font-size: 14px;
+    position: absolute;
+    left: 0;right: 0;top: 0;bottom: 0;
+    margin: auto;
+    margin-top: 265px;
+    height: 30px;
+    color: #757575;
+}
+.custom-top span{
+    padding: 0 5px;
+    color: #ff6700;
+}
 /* tab-now */
 .tab-now{
     width: 410px;
@@ -63,12 +105,7 @@ body {
     width: 348px;
     height: 225px;
 }
-.navtab-link-now{
-    color: #f56600;
-}
-.navtab-link{
-    color: #666666;
-}
+
 /* 登陆输入 */
 .login-area{
     margin-left: auto;
@@ -206,8 +243,7 @@ label{
    display: inline-block;
     width: 26px;
     height: 18px;
-    border: none;
-    
+    border: none;   
 }
 .icon-QQ1-copy-copy{
     color: #ffffff;
