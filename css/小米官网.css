@@ -321,16 +321,24 @@ a{
 }
 .menu-bottom div:nth-child(3){
     border-right: 1px solid #DFDFDF;
-    background: url("../images/03.png")
+    background: url("../images/03.png") no-repeat;
+    background-color: #F3F3F3;
+    background-position-y: 10px;
 }
 .menu-bottom div:nth-child(1){
     /* border: 1px solid #DFDFDF; */
     border-left:1px solid #F3F3F3;
-    background: url("../images/01.png");
+    background: url("../images/01.png") no-repeat;
+    background-color: #F3F3F3;
+
     /* box-sizing: content-box; */
+    background-position-y: 10px;
 }
 .menu-center{
-    background: url("../images/02.png")
+    background: url("../images/02.png") no-repeat;
+    background-color: #F3F3F3;
+
+    background-position-y: 10px;
 }
 /* 单品展示 */
 .star-between{
